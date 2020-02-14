@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="lblNombre" alignment="0" pref="130" max="32767" attributes="0"/>
+                      <Component id="lblPuesto" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="lblComisiones" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                      <Component id="lblOtros" alignment="0" max="32767" attributes="0"/>
+                      <Component id="lblCodigo" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="lblBonificacion" alignment="0" max="32767" attributes="0"/>
+                      <Component id="lblSueldoExtra" alignment="0" pref="105" max="32767" attributes="0"/>
+                      <Component id="lblSalario" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtNombre" alignment="0" pref="147" max="32767" attributes="0"/>
+                          <Component id="txtPuesto" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtSalarioOrdinario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtSalarioExtraordinario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtBonificacion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtComisiones" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtOtros" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtCodigo" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblDescuentosJudiciales" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="lblAnticipos" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="lblOtrosDescuentos" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtDescuentosJudiciales" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                                  <Component id="txtAnticipos" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                                  <Component id="txtOtrosDesscuentos" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" pref="154" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="tbnGuardar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="200" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="687" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblCodigo" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="txtCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblNombre" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="txtNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="tbnGuardar" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPuesto" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="txtPuesto" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblSalario" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="txtSalarioOrdinario" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblSueldoExtra" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="txtSalarioExtraordinario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txtAnticipos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblBonificacion" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="txtBonificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescuentosJudiciales" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="txtOtrosDesscuentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblComisiones" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtComisiones" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblOtrosDescuentos" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtDescuentosJudiciales" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="lblAnticipos" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="lblOtros" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="txtOtros" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="391" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtComisiones">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSalario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salario Ordinario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOtros">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCodigo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo Empleado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCodigo">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblPlanilla">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="11" rowCount="4">
+                <Column editable="true" title="CODIGO" type="java.lang.Object"/>
+                <Column editable="true" title="NOMBRE" type="java.lang.Object"/>
+                <Column editable="true" title="PUESTO" type="java.lang.Object"/>
+                <Column editable="true" title="SALARIO" type="java.lang.Object"/>
+                <Column editable="true" title="SUELDO EXTRA" type="java.lang.Object"/>
+                <Column editable="true" title="BONIFICACION" type="java.lang.Object"/>
+                <Column editable="true" title="COMISIONES" type="java.lang.Object"/>
+                <Column editable="true" title="OTROS" type="java.lang.Object"/>
+                <Column editable="true" title="ANTICIPOS" type="java.lang.Object"/>
+                <Column editable="true" title="DESC. JUDICIALES" type="java.lang.Object"/>
+                <Column editable="true" title="OTORS DESC." type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="txtNombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAnticipos">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPuesto">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPuestoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescuentosJudiciales">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          INGRESO DATOS PERSONALES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSalarioOrdinario">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOtrosDesscuentos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSalarioExtraordinario">
+    </Component>
+    <Component class="javax.swing.JButton" name="tbnGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AGREGAR EMPLEADO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbnGuardarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSueldoExtra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sueldo Extraordinario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DESCUENTOS PERCIBIDOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBonificacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bonificacion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAnticipos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anticipos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblComisiones">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comisiones "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescuentosJudiciales">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descuentos Judiciales"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOtros">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Otros"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOtrosDescuentos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Otros Descuentos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBonificacion">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPuesto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Puesto"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
